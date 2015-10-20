@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="RestaurantManager.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RestaurantManager"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="-142,0,0,10" TextWrapping="Wrap" Text="Restaurant Manager" VerticalAlignment="Bottom" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Right" Margin="0,21,-95,0" Grid.Row="1" TextWrapping="Wrap" Text="Internal Test Version" d:LayoutOverrides="Height, TopPosition, BottomPosition" FontSize="21.333"/>
+        <TextBlock x:Name="gotoOrder" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" d:LayoutOverrides="Height" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="gotoExpedite" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" Foreground="Black" Margin="141,139,111,138" Grid.Column="1" d:LayoutOverrides="Width, Height, LeftPosition, RightPosition, TopPosition, BottomPosition" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+    </Grid>
+</Page>

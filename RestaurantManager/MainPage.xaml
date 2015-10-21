@@ -19,8 +19,8 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Restaurant Manager" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Internal Test Version" d:LayoutOverrides="Height, TopPosition, BottomPosition" FontSize="21.333" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="gotoOrder" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" d:LayoutOverrides="Height" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock x:Name="gotoExpedite" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" Foreground="Black" Margin="141,139,111,138" Grid.Column="1" d:LayoutOverrides="Width, Height, LeftPosition, RightPosition, TopPosition, BottomPosition" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="gotoOrder" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" d:LayoutOverrides="Height" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock x:Name="gotoExpedite" Grid.Row="2" TextWrapping="Wrap" Text="*Submit Order" Margin="141,139,111,138" Grid.Column="1" d:LayoutOverrides="Width, Height, LeftPosition, RightPosition, TopPosition, BottomPosition" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
     </Grid>
 </Page>

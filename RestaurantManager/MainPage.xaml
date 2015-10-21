@@ -17,8 +17,8 @@
             <RowDefinition Height="1*"/>
             <RowDefinition Height="5*"/>
         </Grid.RowDefinitions>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="-142,0,0,10" TextWrapping="Wrap" Text="Restaurant Manager" VerticalAlignment="Bottom" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Right" Margin="0,21,-95,0" Grid.Row="1" TextWrapping="Wrap" Text="Internal Test Version" d:LayoutOverrides="Height, TopPosition, BottomPosition" FontSize="21.333"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Restaurant Manager" VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Internal Test Version" d:LayoutOverrides="Height, TopPosition, BottomPosition" FontSize="21.333" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
         <TextBlock x:Name="gotoOrder" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" d:LayoutOverrides="Height" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock x:Name="gotoExpedite" Grid.Row="2" TextWrapping="Wrap" Text="*Go to Order View" Foreground="Black" Margin="141,139,111,138" Grid.Column="1" d:LayoutOverrides="Width, Height, LeftPosition, RightPosition, TopPosition, BottomPosition" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
